@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.container{
+    text-align: center;
+    background-color: black;
+    height: 450px;
+    width: 370px;
+    border-radius: 30px;
+}
+ 
+input{
+    width: 305px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    text-align: right;
+    border: none;
+}
+.row button{
+    height: 50px;
+    width: 70px;
+    margin: 3px 3px 3px 3px;
+    border: 2px solid black;
+    background-color: rgb(114, 113, 113);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid white;
+}
+#zero{
+    width: 150px;
+} 
+
